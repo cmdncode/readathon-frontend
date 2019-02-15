@@ -1,0 +1,24 @@
+{
+  "name": "startbootstrap-agency",
+  "description": "Agency is a one page HTML theme for Bootstrap.",
+  "main": "",
+  "authors": [
+    "David Miller (http://davidmiller.io/)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "homepage": "https://github.com/cmdncode/readathon-site",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.3.1",
+    "angular-route": "^1.7.7",
+    "angular": "^1.7.7"
+  }
+}
