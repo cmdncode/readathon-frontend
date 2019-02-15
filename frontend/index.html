@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="myApp" lang="en">
 
 <head>
 
@@ -22,8 +22,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
-
-  <script src="/frontend/controllers/books.js"></script>
+  
 
 </head>
 
@@ -463,15 +462,19 @@
       <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
-              <h2 class="section-heading text-uppercase">Add a book!</h2>
-              <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <div id="addabook_container">
+                    <h2 class="section-heading text-uppercase">Add a book!</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Add your books!</a>
+                    
+                    
+                </div>
+              
             </div>
           </div>
           <div class="row">
-              <div class="col "><p>Behind the scenes it costs real money to get this thing going and keep it going. Between server costs and hosting costs for the website, that can all add up! Any amount donated would be really appreciated and used to keep the readathon going!.</p></div>
-              <div class="col">
+                <div id="addabook_container"></div>
                 
-                <a class = "container "href="https://www.paypal.me/the1andonly"><img class="img-fluid " src="img/portfolio/paypal.png" alt=""></a></div>
             </div>
           </div>
           <div class="row">
@@ -1088,6 +1091,8 @@
   <!-- Custom scripts for this template -->
   <script src="js/agency.js"></script>
 
+  
+
 </body>
 
 </html>
@@ -1127,3 +1132,7 @@
   </div> -->
 
   <!-- background-image: url("../img/map-image.png"); -->
+
+  <!-- <script type="text/javascript" src="./bower_components/angular/"></script>
+  <script src="/frontend/controllers/books.js"></script>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"> -->
